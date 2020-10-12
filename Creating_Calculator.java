@@ -72,7 +72,6 @@ public class Creating_Calculator {
 		gl.setConstraints(b1,gc);
 		b1.setBackground(Color.cyan);
 		p.add(b1);
-		//p.setLayout(gl);
 		
 		Button b2 = new Button("M +");
 		gc.gridx=1;
@@ -81,7 +80,6 @@ public class Creating_Calculator {
 		gc.ipady=15;
 		gl.setConstraints(b2,gc);
 		p.add(b2);
-		//p.setLayout(gl);
 		
 		Button b3 = new Button("M -");
 		gc.gridx=2;
@@ -90,7 +88,6 @@ public class Creating_Calculator {
 		gc.ipady=15;
 		gl.setConstraints(b3,gc);
 		p.add(b3);
-		//p.setLayout(gl);
 		
 		Button b4 = new Button("MR");
 		gc.gridx=3;
@@ -99,7 +96,6 @@ public class Creating_Calculator {
 		gc.ipady=15;
 		gl.setConstraints(b4,gc);
 		p.add(b4);
-		//p.setLayout(gl);
 		
 		Button b5 = new Button("GT");
 		gc.gridx=4;
@@ -108,7 +104,6 @@ public class Creating_Calculator {
 		gc.ipady=15;
 		gl.setConstraints(b5,gc);
 		p.add(b5);
-		//p.setLayout(gl);
 		
 		Button b6 = new Button("CE");
 		gc.gridx=5;
@@ -117,7 +112,6 @@ public class Creating_Calculator {
 		gc.ipady=15;
 		gl.setConstraints(b6,gc);
 		p.add(b6);
-		//p.setLayout(gl);
 		
 		Button b7 = new Button("7");
 		gc.gridx=1;
@@ -126,7 +120,6 @@ public class Creating_Calculator {
 		gc.ipady=20;
 		gl.setConstraints(b7,gc);
 		p.add(b7);
-		//p.setLayout(gl);
 		
 		Button b8 = new Button("8");
 		gc.gridx=2;
@@ -135,7 +128,6 @@ public class Creating_Calculator {
 		gc.ipady=20;
 		gl.setConstraints(b8,gc);
 		p.add(b8);
-		//p.setLayout(gl);
 		
 		Button b9 = new Button("9");
 		gc.gridx=3;
@@ -144,7 +136,6 @@ public class Creating_Calculator {
 		gc.ipady=20;
 		gl.setConstraints(b9,gc);
 		p.add(b9);
-		//p.setLayout(gl);
 		
 		Button b10 = new Button("/");
 		gc.gridx=4;
@@ -153,8 +144,7 @@ public class Creating_Calculator {
 		gc.ipady=20;
 		gl.setConstraints(b10,gc);
 		p.add(b10);
-		//p.setLayout(gl);
-		//
+
 		Button b11 = new Button("=>");
 		gc.gridx=5;
 		gc.gridy=4;
@@ -162,7 +152,6 @@ public class Creating_Calculator {
 		gc.ipady=20;
 		gl.setConstraints(b11,gc);
 		p.add(b11);
-		//p.setLayout(gl);
 		
 		Button b12 = new Button("4");
 		gc.gridx=1;
@@ -171,7 +160,6 @@ public class Creating_Calculator {
 		gc.ipady=20;
 		gl.setConstraints(b12,gc);
 		p.add(b12);
-		//p.setLayout(gl);
 		
 		Button b13 = new Button("5");
 		gc.gridx=2;
@@ -180,7 +168,6 @@ public class Creating_Calculator {
 		gc.ipady=20;
 		gl.setConstraints(b13,gc);
 		p.add(b13);
-		//p.setLayout(gl);
 		
 		Button b14 = new Button("6");
 		gc.gridx=3;
@@ -189,7 +176,6 @@ public class Creating_Calculator {
 		gc.ipady=20;
 		gl.setConstraints(b14,gc);
 		p.add(b14);
-		//p.setLayout(gl);
 		
 		Button b15 = new Button("*");
 		gc.gridx=4;
@@ -198,7 +184,6 @@ public class Creating_Calculator {
 		gc.ipady=20;
 		gl.setConstraints(b15,gc);
 		p.add(b15);
-		//p.setLayout(gl);
 		
 		Button b16 = new Button("%");
 		gc.gridx=5;
@@ -207,7 +192,6 @@ public class Creating_Calculator {
 		gc.ipady=20;
 		gl.setConstraints(b16,gc);
 		p.add(b16);
-	//	p.setLayout(gl);
 		
 		Button b17 = new Button("1");
 		gc.gridx=1;
@@ -216,7 +200,6 @@ public class Creating_Calculator {
 		gc.ipady=20;
 		gl.setConstraints(b17,gc);
 		p.add(b17);
-	//	p.setLayout(gl);
 		
 		Button b18 = new Button("2");
 		gc.gridx=2;
@@ -225,7 +208,6 @@ public class Creating_Calculator {
 		gc.ipady=20;
 		gl.setConstraints(b18,gc);
 		p.add(b18);
-	//	p.setLayout(gl);
 		
 		Button b19 = new Button("3");
 		gc.gridx=3;
@@ -234,7 +216,6 @@ public class Creating_Calculator {
 		gc.ipady=20;
 		gl.setConstraints(b19,gc);
 		p.add(b19);
-	//	p.setLayout(gl);
 		
 		Button b20 = new Button("+");
 		gc.gridx=4;
@@ -244,7 +225,6 @@ public class Creating_Calculator {
 		gl.setConstraints(b20,gc);
 		b20.setBackground(Color.cyan);
 		p.add(b20);
-	//	p.setLayout(gl);
 		
 		Button b21 = new Button("=");
 		gc.gridx=5;
@@ -254,7 +234,6 @@ public class Creating_Calculator {
 		gl.setConstraints(b21,gc);
 		b21.setBackground(Color.cyan);
 		p.add(b21);
-//		p.setLayout(gl);
 		
 		Button b22 = new Button("0");
 		gc.gridx=1;
@@ -263,7 +242,6 @@ public class Creating_Calculator {
 		gc.ipady=20;
 		gl.setConstraints(b22,gc);
 		p.add(b22);
-//		p.setLayout(gl);
 		
 		Button b23 = new Button("00");
 		gc.gridx=2;
@@ -272,7 +250,6 @@ public class Creating_Calculator {
 		gc.ipady=20;
 		gl.setConstraints(b23,gc);
 		p.add(b23);
-	//	p.setLayout(gl);
 		
 		Button b24 = new Button(".");
 		gc.gridx=3;
@@ -281,7 +258,6 @@ public class Creating_Calculator {
 		gc.ipady=20;
 		gl.setConstraints(b24,gc);
 		p.add(b24);
-	//	p.setLayout(gl);
 		
 		Button b25 = new Button("Tax+");
 		gc.gridx=4;
@@ -290,7 +266,6 @@ public class Creating_Calculator {
 		gc.ipady=20;
 		gl.setConstraints(b25,gc);
 		p.add(b25);
-	//	p.setLayout(gl);
 		
 		Button b26 = new Button("Tax-");
 		gc.gridx=5;
@@ -299,7 +274,6 @@ public class Creating_Calculator {
 		gc.ipady=20;
 		gl.setConstraints(b26,gc);
 		p.add(b26);
-	//	p.setLayout(gl);
 		
 	}
 
